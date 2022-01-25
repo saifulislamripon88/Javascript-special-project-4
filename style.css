@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    color:rgb(174, 0, 0)
+}
+h2{
+    font-size: 60px;
+    padding:3rem;
+
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.countdown{
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+    
+}
+
+.day,.hour,.minute,.second{
+    font-size: 40px;
+}
+
+.images{
+    height: 50vh;
+
+}
